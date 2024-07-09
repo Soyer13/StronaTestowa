@@ -3,6 +3,9 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+body{
+    min-width: 800px;
+}
 header{
     background: rgba(0, 0, 0, 0.5)url("img/01.jpg");
     background-size: cover;
@@ -42,18 +45,19 @@ nav{
 #Header-Content{
     margin-top: 12%;
     margin-left: 25%;
+    margin-right: 25%;
 }
 #Header-Content h1{
     margin-top: 3%;
-   font-size: 160px;
+   font-size:clamp(100px,8.5vw,200px);
    letter-spacing: 7px;
 }
 #Header-Content h2{
-   font-size: 30px;
+   font-size: clamp(15px,1.5vw,50px);
    letter-spacing: 5px;
 }
 #Header-Content p{
-   font-size: 16px;
+   font-size: clamp(12px, 0.8vw, 16px);
    letter-spacing: 2px;
    line-height: 30px;
 }
