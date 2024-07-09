@@ -10,11 +10,10 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     height:  100vh;
-    
+    color: #ffffff;
 }
 #HeaderTOP{
-    display: flex;
-    
+    display: flex;   
 }
 #Logo-div{
    margin-right: 10%;
@@ -23,7 +22,6 @@ header{
     height: 45px;
     margin-left: 20%;
     margin-top: 20%;
-
 }
 nav{
     justify-content: flex-end;
@@ -33,9 +31,48 @@ nav{
     text-align: right;
 }
 .NavLink{
-    color: #ffffff;
     margin-top: 2%;
     margin-right: 4%;
-   font-size: 12px;
-
+    font-size: 12px;
 }
+.NavLink:hover {
+    color: #5645ff;
+    cursor: pointer;
+}
+#Header-Content{
+    margin-top: 12%;
+    margin-left: 25%;
+}
+#Header-Content h1{
+    margin-top: 3%;
+   font-size: 160px;
+   letter-spacing: 7px;
+}
+#Header-Content h2{
+   font-size: 30px;
+   letter-spacing: 5px;
+}
+#Header-Content p{
+   font-size: 16px;
+   letter-spacing: 2px;
+   line-height: 30px;
+}
+#Header-Content button{
+    background-color: #5645ff;
+    color: white;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 13px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border-width: 0px;
+ }
+ #Header-Content button:hover{
+    color: #5645ff;
+    background-color: #ffffff;
+    cursor: pointer;
+ }
