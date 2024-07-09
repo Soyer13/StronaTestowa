@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background: rgba(0, 0, 0, 0.5)url("img/01.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:  100vh;
+    
+}
+#HeaderTOP{
+    display: flex;
+    
+}
+#Logo-div{
+   margin-right: 10%;
+}
+#Logo{
+    height: 45px;
+    margin-left: 20%;
+    margin-top: 20%;
+
+}
+nav{
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: right;
+}
+.NavLink{
+    color: #ffffff;
+    margin-top: 2%;
+    margin-right: 4%;
+   font-size: 12px;
+
+}
