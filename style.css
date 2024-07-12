@@ -7,7 +7,7 @@ body{
     min-width: 800px;
 }
 header{
-    background: rgba(0, 0, 0, 0.5)url("img/01.jpg");
+    background: rgba(0, 0, 0, 0.6)url("img/01.jpg");
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -34,8 +34,8 @@ nav{
     text-align: right;
 }
 .NavLink{
-    margin-top: 2%;
-    margin-right: 4%;
+    margin-top: 3%;
+    margin-right: 3%;
     font-size: 12px;
 }
 .NavLink:hover {
@@ -67,9 +67,9 @@ nav{
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 13px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: clamp(13px, 1vw, 60px);;
     margin-top: 5%;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -158,7 +158,7 @@ nav{
    cursor: pointer;
  }
  #Best-ever-design{
-   background: rgba(0, 0, 0, 0.5)url("img/02.jpg");
+   background: rgba(0, 0, 0, 0.6)url("img/02.jpg");
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -207,6 +207,7 @@ nav{
    font-weight: 600;
 }
 #The-Work p{
+   font-size: small;
    margin-bottom: 5% !important;
    word-spacing: 15px;
 }
@@ -252,6 +253,7 @@ nav{
 }
 #Brand-Stor-Container{
    display: flex;
+   margin-top: 5vw;
 }
 .Brand-Stor-DIV{
    width: 50%;
@@ -271,7 +273,7 @@ background-color: #000000;
    padding-left: 3vw;
    padding-right: 3vw;
    padding-top: 1vw;
-   padding-bottom: 1%;
+   padding-bottom: 1vw;
    font-size: 22px;
    margin-top: 1vw;
    letter-spacing: 2px;
@@ -323,9 +325,11 @@ background-color: #000000;
    padding-left: 20vw;
    padding-right: 20vw;
    justify-content: center;
+   height: 1200px;
 }
 #Team-Work-Slider img{
    width: 18vw;
+   margin-top: 5vw;
 }
 .P-normal{
    margin-top: 5%;
@@ -368,6 +372,9 @@ background-color: #000000;
 #Testimonials-Header {
    text-align: center;
    padding: 10%;
+}
+#Testimonials-Header p {
+   font-size: 20px !important;
 }
 #Testimonials-slider-container{
    display: flex;
