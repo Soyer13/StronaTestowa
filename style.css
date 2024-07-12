@@ -220,6 +220,7 @@ nav{
    .images-Container {
       justify-content:space-evenly;
    }
+
 }
 .images-img{
    height: 400px;
@@ -321,10 +322,36 @@ background-color: #000000;
 #Team-Work{
    padding-left: 20vw;
    padding-right: 20vw;
+   justify-content: center;
 }
 #Team-Work-Slider img{
    width: 18vw;
 }
 .P-normal{
    margin-top: 5%;
+}
+#achievements{
+   background: rgba(0, 0, 0, 0.8)url("img/06.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height:  40vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+
+}
+.achievements-div{
+   text-align: center;
+   margin: 6.5%;
+}
+.achievements-div h5{
+   font-size:25px;
+   font-weight: bold;
+   color: #c1c5cd;
+   margin-top: 10px;
+}
+.achievements-div p{
+   margin-top: 15px;
+   letter-spacing: 1px;
 }
