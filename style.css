@@ -356,8 +356,10 @@ background-color: #000000;
    letter-spacing: 1px;
 }
 #Testimonials{
-   margin-left: 20vw;
-   margin-right: 20vw;
+   padding-left: 20vw;
+   padding-right: 20vw;
+   background-color: #f8f8f8;
+   height: 100vh;
 }
 .arrow{
    height: 50px;
@@ -365,7 +367,7 @@ background-color: #000000;
 }
 #Testimonials-Header {
    text-align: center;
-   margin: 10%;
+   padding: 10%;
 }
 #Testimonials-slider-container{
    display: flex;
@@ -402,5 +404,15 @@ background-color: #000000;
 #Testimonials p {
    text-align: center;
    font-size: small;
-
+}
+#FLASHMODE{
+   padding-left: 20vw;
+   padding-right: 20vw;
+   text-align: center;
+   height: 40vh;
+}
+.FLASHMODE-img{
+   height: 150px;
+   margin: 1%;
+   margin-top: 10%;
 }
