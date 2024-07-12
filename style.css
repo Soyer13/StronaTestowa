@@ -98,14 +98,14 @@ nav{
     width: 400px;
     
  }
- #What-We-Do-DIV h2{
+ #What-We-Do-DIV h2,#Brand-Stor-Header h2{
    margin-top: 1.3vw;
     font-size: 40px;
     font-weight: lighter;
     letter-spacing: 3px;
     color: #4e4f54;
  }
- #What-We-Do-DIV h1 , #The-Work h1{
+ #What-We-Do-DIV h1 , #The-Work h1 , #Brand-Stor-Header h1{
     font-weight: 900;
     margin-top: 3%;
     margin-bottom: 10%;
@@ -114,7 +114,7 @@ nav{
     color: #4e4f54;
 
  }
- #What-We-Do-DIV p {
+ #What-We-Do-DIV p ,#Brand-Stor-Header p{
     font-style: italic;
     font-weight: 600;
     color: #767679;
@@ -143,7 +143,7 @@ nav{
    color: #5c5d62;
  }
 
- .What-We-Do-Container p , #The-Work p{
+ .What-We-Do-Container p , #The-Work p,.Brand-Stor-DIV p{
    margin-bottom: 2vw;
    color: #575757;
    line-height: 30px;
@@ -225,4 +225,68 @@ nav{
    height: 400px;
    width: 600px;
    margin-bottom: 5px;
+}
+#Brand-Story{
+   margin-left: 20vw;
+   margin-right: 20vw;
+}
+#Brand-Stor-Header{
+   text-align: left;
+   
+}
+#Brand-Stor-Header h1{
+   font-size: 50px;
+   font-weight: 600;
+   margin-bottom: 2%;
+   margin-top: 1%;
+}
+#Brand-Stor-Header h2{
+   margin-top: 10%;
+   font-size: 30px;
+   font-weight:100;
+}
+#Brand-Stor-Header p{
+   margin-bottom: 1% ;
+   font-size: 20px;
+}
+#Brand-Stor-Container{
+   display: flex;
+}
+.Brand-Stor-DIV{
+   width: 50%;
+   padding-right: 2%;
+}
+#Brand-Stor-Links{
+   list-style: none;
+   column-count: 2;
+   line-height: 40px;
+   font-size: small;
+   
+}
+#Brand-Story button{
+background-color: #000000;
+   color: white;
+   text-align: center;
+   padding-left: 3vw;
+   padding-right: 3vw;
+   padding-top: 1vw;
+   padding-bottom: 1%;
+   font-size: 22px;
+   margin-top: 1vw;
+   letter-spacing: 2px;
+   border-radius: 5px;
+   border-width: 0px;
+}
+
+ #Brand-Story button:hover{
+   color: #5645ff;
+   background-color: #f8f8f8;
+   cursor: pointer;
+}
+.Brand-Stor-DIV  a{
+   color: #5645ff;
+   text-decoration: none;
+}
+.Brand-Stor-DIV a:hover{
+   color: #000000;
 }
